@@ -1,0 +1,17 @@
+
+@import "tailwindcss";
+
+@utility .container{
+  margin: 0 auto;
+}
+
+.content-box-css{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.input-css{
+  border:2px solid rgb(44, 44, 44);
+}
