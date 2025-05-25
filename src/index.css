@@ -1,17 +1,41 @@
-
 @import "tailwindcss";
 
-@utility .container{
+@utility container {
   margin: 0 auto;
 }
 
-.content-box-css{
+.content-box-css {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap:30px;
   align-items: center;
 }
 
-.input-css{
-  border:2px solid rgb(44, 44, 44);
+.header-css {
+  font-size: 55px;
+  color: rgb(30, 30, 30);
+  font-weight: 600;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.input-css {
+   padding: 10px;  
+  font-size: 25px;
+  color: #fff;
+  background-color: rgb(38, 37, 37);
+  border: 7px solid #fff;
+  outline: 4px dashed black;
+}
+
+.input-btn-css{
+  font-size: 25px;
+  padding: 4px 8px;
+  border: 2px solid rgb(28, 27, 27);
+  cursor: pointer;
+  background-color: rgb(46, 45, 45);
+  transition: all linear .3s;
+}
+.input-btn-css:hover{
+  
 }
