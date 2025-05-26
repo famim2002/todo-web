@@ -11,6 +11,17 @@ const Home = () => {
             <button className="input-btn-css">submit</button>
             {/* <button className="input-btn-css"></button> */}
           </div>
+          <div>
+            <ul className='ul-css'>
+              <li className='li-css'>
+                <span>hi</span>
+                <div>
+                  <button className="li-btn-css"></button>
+                  <button className="li-btn-css"></button>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
