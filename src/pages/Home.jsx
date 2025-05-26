@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <section className="px-2 py-24">
+    <section className="px-2 py-14">
       <div className="container flex flex-col gap-20">
         <h1 className=" header-css">todo list</h1>
         <div className="content-box-css">

@@ -4,6 +4,14 @@
   margin: 0 auto;
 }
 
+*{
+  font-family: "Fira Sans", sans-serif;
+}
+
+body{
+  background-color: #dcd0be;
+}
+
 .content-box-css {
   display: flex;
   flex-direction: column;
@@ -29,13 +37,16 @@
 }
 
 .input-btn-css{
-  font-size: 25px;
   padding: 4px 8px;
-  border: 2px solid rgb(28, 27, 27);
+  font-size: 25px;
+  color: #fff;
+  border: 5px solid #fff ;
+  outline: 3px solid rgb(28, 27, 27) ;
   cursor: pointer;
   background-color: rgb(46, 45, 45);
-  transition: all linear .3s;
 }
+
 .input-btn-css:hover{
-  
+  outline: 3px dashed rgb(28, 27, 27) ;
+ 
 }
